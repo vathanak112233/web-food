@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+@import url("https://fonts.googleapis.com/css?family=Vidaloka");
+
+blockquote .media img {
+	border-radius: 50%;
+	max-width: 60px;
+}
+
+a.logo {
+	align-items: center;
+	display: flex;
+}
+
+a.logo img {
+	display: inline-block;
+	max-height: 80px;
+}
+
+.page_header {
+	height: auto;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 0;
+	top: 0;
+	transition: 0.5s ease-in-out;
+	width: 100%;
+	z-index: 1000;
+}
+
+.page_header .row {
+	min-height: 62px;
+}
+
+.header_absolute {
+	position: relative;
+}
+
+.header_absolute .page_header,
+.header_absolute .page_header_wrapper {
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 1002;
+}
+
+.header_absolute .page_topline,
+.header_absolute .page_toplogo,
+.header_absolute .page_header_wrapper,
+.header_absolute .page_title {
+	background-color: transparent;
+}
