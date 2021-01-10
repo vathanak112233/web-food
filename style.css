@@ -64,4 +64,11 @@ body{
 .Column img {
     width: 400px;
 }
+
+.Footer {
+    background-color: #363d41;
+    padding: 5%;
+    color: white;
+    font-family: Roboto;
+}
  
