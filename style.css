@@ -162,6 +162,7 @@ html {
     height: 20%;
     background-color: #343a40;
     padding: 20px;
+    padding-left: 50px;
     font-family: Roboto;
   }
 
@@ -233,5 +234,25 @@ html {
   
   .media .media-body > p:first-child {
     margin-top: -0.2em;
+  }
+
+  p a {
+    color: hotpink;
+  }
+
+  .column-footer {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    padding-left: 8px;
+  
+  }
+  .column-footer-img {
+    float: left;
+    width: 50%;
+    display: block;
+    padding-left: 110px;
+    padding-top: 30px;
   }
 /* ---------end css for about  -----------*/
