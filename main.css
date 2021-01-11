@@ -51,6 +51,11 @@
 
 .video-part{
 	height: 40%;
+	background-color: #ff9a76;
+}
+
+.img_video-part{
+	padding: 40px;
 }
 
 .achievement{
@@ -72,4 +77,108 @@
 
 .media .media-body > p:first-child {
 	margin-top: -0.2em;
+}
+
+.timetable .nav-tabs {
+	border: 0;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+.timetable .nav-tabs .nav-item {
+	border-radius: 0;
+	display: inline-block;
+	letter-spacing: 0;
+	min-width: 14.2%;
+	text-align: center;
+}
+
+.timetable .nav-tabs a.nav-link {
+	border: 1px solid #e5e5e5;
+	border-left: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 13px 12px;
+	width: 100%;
+}
+
+.timetable .nav-tabs a.nav-link:hover {
+	background-color: #fc834b;
+	border-color: #fc834b;
+	border-left: 1px solid #e5e5e5;
+}
+
+.timetable .nav-tabs a.nav-link.first {
+	border-left: 1px solid #e5e5e5;
+	border-radius: 5px 0 0 5px;
+}
+
+.tab-content {
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	padding: 50px 55px;
+}
+
+.tab-pane .media img {
+	max-width: 40%;
+}
+
+.tab-pane .media img:first-child {
+	margin-right: 10px;
+}
+
+.bordered {
+	border-radius: 5px;
+}
+
+.timetable .btn-timetable {
+	float: right;
+	margin-top: -39px;
+}
+
+.timetable h5 {
+	margin-bottom: 18px;
+}
+
+.timetable .item-meta span {
+	padding: 0 22px 0 0px;
+}
+
+.timetable .item-meta i {
+	margin-right: 3px;
+}
+
+.timetable .nav-tabs .nav-link.active {
+	background: #fc834b;
+	border-color: #fc834b;
+	color: #fff;
+}
+
+.section-heading h6 {
+	font-size: 14px;
+	margin-bottom: -2px !important;
+}
+
+@media (max-width: 991px) {
+	.image-wrap {
+		margin-bottom: 25px;
+	}
+}
+
+h6.small-text {
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0;
+}
+
+.btn-outline-maincolor{
+	background-color: transparent;
+}
+
+.ds .tab-content {
+	border-color: #454545;
+}
+
+.ds .nav-tabs .nav-link {
+	border-color: #454545;
 }
